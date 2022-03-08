@@ -539,23 +539,6 @@ button.menuIcon:focus {
 .navBar .slideOutNav .legal a:hover, .navBar .slideOutNav .legal a:focus {
   color: white;
 }
-.navBar .social {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-.navBar .social a {
-  font-size: 2.4rem;
-  margin: 0 10px;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-}
-.navBar .social a:hover, .navBar .social a:focus {
-  color: #ffd698;
-}
 
 header {
   display: -webkit-box;
@@ -649,4 +632,48 @@ footer .footerNav a {
 }
 footer .footerNav a:hover, footer .footerNav a:focus {
   color: white;
+}
+footer .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer .social a {
+  font-size: 2.4rem;
+  margin: 0 10px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+footer .social a:hover, footer .social a:focus {
+  color: #ffd698;
+}
+
+.gallery {
+  background-color: #f8fbf3;
+  padding: 90px 0;
+  margin: 0;
+}
+.gallery h2 {
+  max-width: 500px;
+}
+
+.galleryItems {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.galleryItems .item {
+  width: 15%;
+}
+.galleryItems .item img {
+  width: 100%;
+  display: block;
 }
