@@ -3,6 +3,7 @@ header {
     margin-bottom: 90px;
     align-items: center;
     flex-wrap: wrap;
+    background-color: $tertiary;
 
     .headerImgContainer {
         width: 45%;
@@ -16,6 +17,7 @@ header {
 
     .headerContent {
         width: 55%;
+        
 
         .contentContainer {
             width: 65%;
