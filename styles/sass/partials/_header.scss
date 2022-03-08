@@ -1,0 +1,26 @@
+header {
+    display: flex;
+    margin-bottom: 90px;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .headerImgContainer {
+        width: 45%;
+
+        img {
+            max-width: 100%;
+            vertical-align: middle;
+        }
+        
+    }
+
+    .headerContent {
+        width: 55%;
+
+        .contentContainer {
+            width: 65%;
+            margin: 0 auto;
+        }
+    }
+}
+
