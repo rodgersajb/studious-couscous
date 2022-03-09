@@ -1,0 +1,69 @@
+.mapFormContainer {
+    display: flex;
+    .map {
+        width: 50%;
+        iframe {
+            width: 100%;
+        }
+    }
+
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    width:calc(50% - 70px);
+    margin-left: 70px;
+
+
+}
+
+input, textarea {
+    padding: 0 0 10px 5px;
+    border: none;
+    margin-bottom: 40px;
+    color: #333;
+    font-family: $bodyFont;
+    &::placeholder{
+        font-size: 1.6rem;
+        color: $primary;
+        opacity: 1;
+        line-height: 2.4rem;
+        text-transform: uppercase;
+
+    }
+    &:focus {
+        border-bottom: 1px solid $primary;
+    }
+}
+
+input {
+    border-bottom: 1px solid #eee;
+}
+
+textarea {
+    min-height: 130px;
+    border: 1px solid #eee;
+    border-top: none;
+
+}
+
+select {
+    // appearance: none;
+    font-family: $bodyFont;
+    color: $primary;
+    padding: 0 0 10px 0;
+    background-color: $solidWhite;
+    border-style: none;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 40px;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    line-height: 2.4rem;
+
+
+}
+
+option {
+    font-family: $bodyFont;
+}
